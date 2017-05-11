@@ -2,7 +2,7 @@
 
 .brand-header {
     letter-spacing: 8px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: $header-font-family;
     &.hero{
         font-size: $base-font-size * 4;
     }
@@ -16,6 +16,7 @@
 	font-size: $base-font-size * .75;
 	letter-spacing: 4px;
 	position: fixed;
+	z-index: 1000;
 	ul.nav {
 		font-family: $base-font-family;
 		list-style-type: none;
